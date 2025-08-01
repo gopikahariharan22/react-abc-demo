@@ -30,11 +30,17 @@ export default function App() {
 // Component = F(S)
 function Counter() {
   const [like, setLike] = useState(10);
+   const [disLike, setdisLike] = useState(10);
   // Dislike
 
   return (
+    <section>
     <div>
       <button onClick={() => setLike(like + 1)}>👍 {like}</button>
     </div>
+    <div>
+      <button onClick={() => setdisLike(disLike + 1)}>😢 {disLike}</button>
+     </div>
+     </section>
   );
 }
