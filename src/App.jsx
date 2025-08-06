@@ -4,6 +4,8 @@ import { MovieList } from "./MovieList";
 import { MsgList } from "./MsgList";
 import "./styles.css";
 import { UserList } from "./UserList";
+import { MovieList } from "./MovieList";
+
 
 // Component = Logic + UI
 // 2. Default export
@@ -35,12 +37,14 @@ function Counter() {
 
   return (
     <section>
-    <div>
+    <div  className="counter-btn-container">
       <button onClick={() => setLike(like + 1)}>👍 {like}</button>
+      <button onClick={() => setDisLike(disLikelike + 1)}>😢 {disLikelike}</button>
     </div>
-    <div>
-      <button onClick={() => setdisLike(disLike + 1)}>😢 {disLike}</button>
-     </div>
+    <progress value={like} max={like+disLike}></progress>
+    {/* Conditional Rendering */}
+    {5 < 4 ? <h1>Awesome</h1> : <h3>cool</h3>}
+    {like > 10 }
      </section>
   );
 }
