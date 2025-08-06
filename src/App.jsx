@@ -44,7 +44,6 @@ function Counter() {
     <progress value={like} max={like+disLike}></progress>
     {/* Conditional Rendering */}
     {5 < 4 ? <h1>Awesome</h1> : <h3>cool</h3>}
-    {like > 10 }
      </section>
   );
 }
