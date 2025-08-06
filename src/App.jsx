@@ -30,10 +30,26 @@ export default function App() {
 // state - App State - Current value
 
 // Component = F(S)
+
+function User({ name }) {
+  return (
+    <div>
+      <img
+        className="marvel"
+        src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+        alt="ProfilePic"
+      />
+
+      <h1>Hello, {name} 🎊</h1>
+    </div>
+  );
+}
+
 function Counter() {
+  
   const [like, setLike] = useState(10);
    const [disLike, setdisLike] = useState(10);
-  // Dislike
+  
 
   return (
     <section>
@@ -44,6 +60,7 @@ function Counter() {
     <progress value={like} max={like+disLike}></progress>
     {/* Conditional Rendering */}
     {5 < 4 ? <h1>Awesome</h1> : <h3>cool</h3>}
+    {like - disLike >= 10 ? <h1>Awesome</h1> : <h3>cool</h3>}
      </section>
   );
 }
