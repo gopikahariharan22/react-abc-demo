@@ -14,7 +14,7 @@ export function MovieList() {
     {
       name: "RRR",
       poster:
-        "https://englishtribuneimages.blob.core.windows.net/gallary-content/2021/6/Desk/2021_6$largeimg_977224513.JPG",
+        "https://m.media-amazon.com/images/M/MV5BNWMwODYyMjQtMTczMi00NTQ1LWFkYjItMGJhMWRkY2E3NDAyXkEyXkFqcGc@._V1_.jpg",
       rating: 8.8,
       summary:
         "RRR is an upcoming Indian Telugu-language period action drama film directed by S. S. Rajamouli, and produced by D. V. V. Danayya of DVV Entertainments.",
@@ -76,7 +76,7 @@ export function MovieList() {
     {
       name: "PS2",
       poster:
-        "https://m.media-amazon.com/images/M/MV5BYjFjMTQzY2EtZjQ5MC00NGUyLWJiYWMtZDI3MTQ1MGU4OGY2XkEyXkFqcGdeQXVyNDExMjcyMzA@._V1_.jpg",
+        "https://m.media-amazon.com/images/M/MV5BZWQ0MjExZGMtYWU5Ni00YzIzLWJiOWQtMWIxN2I4ZWM0ZWQwXkEyXkFqcGc@._V1_.jpg",
       summary:
         "Ponniyin Selvan: I is an upcoming Indian Tamil-language epic period action film directed by Mani Ratnam, who co-wrote it with Elango Kumaravel and B. Jeyamohan",
       rating: 8,

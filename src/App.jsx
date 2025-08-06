@@ -14,9 +14,9 @@ export default function App() {
   return (
     <div className="App">
       {/* <MsgList /> */}
-      <UserList />
+      {/* <UserList /> */}
 
-      {/* <MovieList /> */}
+      <MovieList />
     </div>
   );
 }
