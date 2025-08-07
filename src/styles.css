@@ -45,7 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin: 0.5rem 0px;
 }
 
 .movie-name {
@@ -55,7 +55,7 @@
 
 .movie-rating {
   font-size: 20px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .movie-summary {
@@ -84,5 +84,32 @@
 
 .counter-btn-container {
   display: flex;
-  gap: 16px;
+  gap: 8px;
+
+  button {
+    font-size: 1rem;
+  }
+}
+
+nav {
+  ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+}
+
+:root {
+  /* 1rem = 16px */
+  font-size: 16px;
+}
+
+/* 1rem = 16px */
+.add-movie-form {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 30rem;
+
+  margin: 1.25rem auto;
 }

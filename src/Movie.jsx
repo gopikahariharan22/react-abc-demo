@@ -15,7 +15,9 @@ export function Movie({ movie }) {
   };
 
   // Conditional Styling
-  const summaryStyles = {};
+  const summaryStyles = {
+    display: show ? "block" : "none",
+  };
 
   return (
     <div className="movie-container">
@@ -32,9 +34,12 @@ export function Movie({ movie }) {
         <button onClick={() => setShow(!show)}>Toggle Summary</button>
 
         {/* Conditional Rendering */}
-        {/* {show && <p className="movie-summary">{movie.summary}</p>} */}
+        {show && <p className="movie-summary">{movie.summary}</p>}
 
-        <p className="movie-summary">{movie.summary}</p>
+        {/* Conditional Styling */}
+        {/* <p style={summaryStyles} className="movie-summary">
+          {movie.summary}
+        </p> */}
         {/* Task 1.1 - Like & DisLike - MovieCounter */}
         <MovieCounter />
       </div>
