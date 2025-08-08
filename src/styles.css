@@ -113,3 +113,7 @@ nav {
 
   margin: 1.25rem auto;
 }
+
+.movie-detail-content-container {
+  max-width: 60rem;
+}
