@@ -5,9 +5,9 @@
 
 .user-container {
   img {
-    height: 200px;
+    height: 80px;
     aspect-ratio: 1/1;
-    border-radius: 50%;
+    border-radius: 30px;
     object-fit: cover;
   }
 
@@ -117,3 +117,49 @@ nav {
 .movie-detail-content-container {
   max-width: 60rem;
 }
+
+nav {
+  background-color: rgb(135, 163, 145); /* dark background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  display: flex; /* horizontal layout */
+  list-style: none;
+  margin: 0;
+  padding: 0.75rem 1.5rem;
+}
+
+nav ul li {
+  margin-right: 2rem; /* space between links */
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav a:hover {
+  color: #2729a0; /* yellow-ish hover color */
+  border-bottom: 2px solid #facc15;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merienda:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "inter", serif;
+    font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+}
+body{
+ 
+    background-color: rgb(177, 180, 185);
+    
+
+}
+
